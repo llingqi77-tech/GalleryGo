@@ -1,0 +1,854 @@
+{
+  "meta": {
+    "version": 1,
+    "sample": true,
+    "sample_note": "本地示例素材 · 分析与学习结果为预设演示",
+    "search_examples": [
+      "bukti transfer minggu lalu",
+      "pesanan",
+      "keluarga"
+    ],
+    "search_suggestions": [
+      {"label":"上周的转账凭证","query":"bukti transfer minggu lalu","photo_id":"001"},
+      {"label":"我的购物订单与物流","query":"pesanan","photo_id":"005"},
+      {"label":"WhatsApp 中的聊天截图","query":"whatsapp","photo_id":"009"}
+    ]
+  },
+  "photos": [
+    {
+      "id": "001",
+      "thumb": "images/001.svg",
+      "full": "images/001.svg",
+      "category": "payment",
+      "title": "GoPay 转账凭证",
+      "ocr_text": "GoPay Transfer berhasil Pengirim Rina Penerima Andi Rp 250.000 12 Juni 2026",
+      "tags": [
+        "gopay",
+        "transfer",
+        "andi"
+      ],
+      "similar_ids": [
+        "002",
+        "003"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "002",
+        "003",
+        "004",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "002",
+      "thumb": "images/002.svg",
+      "full": "images/002.svg",
+      "category": "payment",
+      "title": "GoPay 清晰凭证",
+      "ocr_text": "GoPay Transfer berhasil Pengirim Rina Penerima Andi Rp 250.000 12 Juni 2026",
+      "tags": [
+        "gopay",
+        "transfer",
+        "andi"
+      ],
+      "similar_ids": [
+        "001",
+        "003"
+      ],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "001",
+        "003",
+        "004",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "003",
+      "thumb": "images/003.svg",
+      "full": "images/003.svg",
+      "category": "payment",
+      "title": "GoPay 连续截图",
+      "ocr_text": "GoPay Transfer berhasil Pengirim Rina Penerima Andi Rp 250.000 12 Juni 2026",
+      "tags": [
+        "gopay",
+        "transfer",
+        "andi"
+      ],
+      "similar_ids": [
+        "001",
+        "002"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "001",
+        "002",
+        "004",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "004",
+      "thumb": "images/004.svg",
+      "full": "images/004.svg",
+      "category": "payment",
+      "title": "DANA 转账记录",
+      "ocr_text": "DANA Transfer berhasil Pengirim Rina Penerima Budi Rp 50.000 12 Juni 2026",
+      "tags": [
+        "dana",
+        "transfer",
+        "budi"
+      ],
+      "similar_ids": [],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "001",
+        "002",
+        "003",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "005",
+      "thumb": "images/005.svg",
+      "full": "images/005.svg",
+      "category": "order",
+      "title": "Shopee 购物订单",
+      "ocr_text": "Pesanan dibayar Shopee Kemeja biru J&T resi GG-260612-108 Rp250.000",
+      "tags": [
+        "pesanan",
+        "belanja",
+        "shopee"
+      ],
+      "similar_ids": [
+        "006",
+        "007"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "006",
+        "007",
+        "008",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "006",
+      "thumb": "images/006.svg",
+      "full": "images/006.svg",
+      "category": "order",
+      "title": "Shopee 清晰订单",
+      "ocr_text": "Pesanan dibayar Shopee Kemeja biru J&T resi GG-260612-108 Rp250.000",
+      "tags": [
+        "pesanan",
+        "belanja",
+        "shopee"
+      ],
+      "similar_ids": [
+        "005",
+        "007"
+      ],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "005",
+        "007",
+        "008",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "007",
+      "thumb": "images/007.svg",
+      "full": "images/007.svg",
+      "category": "order",
+      "title": "Shopee 订单截图",
+      "ocr_text": "Pesanan dibayar Shopee Kemeja biru J&T resi GG-260612-108 Rp250.000",
+      "tags": [
+        "pesanan",
+        "belanja",
+        "shopee"
+      ],
+      "similar_ids": [
+        "005",
+        "006"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "005",
+        "006",
+        "008",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "008",
+      "thumb": "images/008.svg",
+      "full": "images/008.svg",
+      "category": "order",
+      "title": "Tokopedia 购物记录",
+      "ocr_text": "Pesanan dibayar Shopee Kemeja biru J&T resi GG-260612-108 Rp250.000",
+      "tags": [
+        "pesanan",
+        "belanja",
+        "shopee"
+      ],
+      "similar_ids": [],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "005",
+        "006",
+        "007",
+        "009",
+        "010"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "009",
+      "thumb": "images/009.svg",
+      "full": "images/009.svg",
+      "category": "chat",
+      "title": "WhatsApp 转账对话",
+      "ocr_text": "WhatsApp Andi Transfer Rp250.000 Terima kasih",
+      "tags": [
+        "whatsapp",
+        "chat",
+        "percakapan"
+      ],
+      "similar_ids": [
+        "010",
+        "011"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "010",
+        "011",
+        "012",
+        "013",
+        "014"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "010",
+      "thumb": "images/010.svg",
+      "full": "images/010.svg",
+      "category": "chat",
+      "title": "WhatsApp 清晰对话",
+      "ocr_text": "WhatsApp Andi Transfer Rp250.000 Terima kasih",
+      "tags": [
+        "whatsapp",
+        "chat",
+        "percakapan"
+      ],
+      "similar_ids": [
+        "009",
+        "011"
+      ],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "009",
+        "011",
+        "012",
+        "013",
+        "014"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "011",
+      "thumb": "images/011.svg",
+      "full": "images/011.svg",
+      "category": "chat",
+      "title": "WhatsApp 聊天截图",
+      "ocr_text": "WhatsApp Andi Transfer Rp250.000 Terima kasih",
+      "tags": [
+        "whatsapp",
+        "chat",
+        "percakapan"
+      ],
+      "similar_ids": [
+        "009",
+        "010"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "009",
+        "010",
+        "012",
+        "013",
+        "014"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "012",
+      "thumb": "images/012.svg",
+      "full": "images/012.svg",
+      "category": "chat",
+      "title": "家庭群聊",
+      "ocr_text": "WhatsApp Andi Transfer Rp250.000 Terima kasih",
+      "tags": [
+        "whatsapp",
+        "chat",
+        "percakapan"
+      ],
+      "similar_ids": [],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "009",
+        "010",
+        "011",
+        "013",
+        "014"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "013",
+      "thumb": "images/013.svg",
+      "full": "images/013.svg",
+      "category": "idcard",
+      "title": "证件资料样例",
+      "ocr_text": "Dokumen contoh BUDI CONTOH Jakarta Indonesia",
+      "tags": [
+        "dokumen",
+        "identitas",
+        "ktp"
+      ],
+      "similar_ids": [
+        "014",
+        "015"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "014",
+        "015",
+        "016",
+        "017",
+        "018"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "014",
+      "thumb": "images/014.svg",
+      "full": "images/014.svg",
+      "category": "idcard",
+      "title": "清晰证件样例",
+      "ocr_text": "Dokumen contoh BUDI CONTOH Jakarta Indonesia",
+      "tags": [
+        "dokumen",
+        "identitas",
+        "ktp"
+      ],
+      "similar_ids": [
+        "013",
+        "015"
+      ],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "013",
+        "015",
+        "016",
+        "017",
+        "018"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "015",
+      "thumb": "images/015.svg",
+      "full": "images/015.svg",
+      "category": "idcard",
+      "title": "证件连续拍照",
+      "ocr_text": "Dokumen contoh BUDI CONTOH Jakarta Indonesia",
+      "tags": [
+        "dokumen",
+        "identitas",
+        "ktp"
+      ],
+      "similar_ids": [
+        "013",
+        "014"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "013",
+        "014",
+        "016",
+        "017",
+        "018"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "016",
+      "thumb": "images/016.svg",
+      "full": "images/016.svg",
+      "category": "idcard",
+      "title": "旅行票据样例",
+      "ocr_text": "Dokumen contoh BUDI CONTOH Jakarta Indonesia",
+      "tags": [
+        "dokumen",
+        "identitas",
+        "ktp"
+      ],
+      "similar_ids": [],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "013",
+        "014",
+        "015",
+        "017",
+        "018"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "017",
+      "thumb": "images/017.svg",
+      "full": "images/017.svg",
+      "category": "work",
+      "title": "咖啡经营素材",
+      "ocr_text": "Warung Kopi Materi usaha Kopi susu Rp18.000",
+      "tags": [
+        "usaha",
+        "kerja",
+        "kopi"
+      ],
+      "similar_ids": [
+        "018",
+        "019"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "018",
+        "019",
+        "020",
+        "021",
+        "022"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "018",
+      "thumb": "images/018.svg",
+      "full": "images/018.svg",
+      "category": "work",
+      "title": "清晰产品照片",
+      "ocr_text": "Warung Kopi Materi usaha Kopi susu Rp18.000",
+      "tags": [
+        "usaha",
+        "kerja",
+        "kopi"
+      ],
+      "similar_ids": [
+        "017",
+        "019"
+      ],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "017",
+        "019",
+        "020",
+        "021",
+        "022"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "019",
+      "thumb": "images/019.svg",
+      "full": "images/019.svg",
+      "category": "work",
+      "title": "咖啡相似照片",
+      "ocr_text": "Warung Kopi Materi usaha Kopi susu Rp18.000",
+      "tags": [
+        "usaha",
+        "kerja",
+        "kopi"
+      ],
+      "similar_ids": [
+        "017",
+        "018"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "017",
+        "018",
+        "020",
+        "021",
+        "022"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "020",
+      "thumb": "images/020.svg",
+      "full": "images/020.svg",
+      "category": "work",
+      "title": "门店菜单",
+      "ocr_text": "Warung Kopi Materi usaha Kopi susu Rp18.000",
+      "tags": [
+        "usaha",
+        "kerja",
+        "kopi"
+      ],
+      "similar_ids": [],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "017",
+        "018",
+        "019",
+        "021",
+        "022"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "021",
+      "thumb": "images/021.svg",
+      "full": "images/021.svg",
+      "category": "festival",
+      "title": "家庭节庆合照",
+      "ocr_text": "Selamat Idul Fitri Lebaran keluarga liburan",
+      "tags": [
+        "lebaran",
+        "keluarga",
+        "liburan"
+      ],
+      "similar_ids": [
+        "022",
+        "023"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "022",
+        "023",
+        "024",
+        "012",
+        "016"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "022",
+      "thumb": "images/022.svg",
+      "full": "images/022.svg",
+      "category": "festival",
+      "title": "推荐家庭合照",
+      "ocr_text": "Selamat Idul Fitri Lebaran keluarga liburan",
+      "tags": [
+        "lebaran",
+        "keluarga",
+        "liburan"
+      ],
+      "similar_ids": [
+        "021",
+        "023"
+      ],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "021",
+        "023",
+        "024",
+        "012",
+        "016"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "023",
+      "thumb": "images/023.svg",
+      "full": "images/023.svg",
+      "category": "festival",
+      "title": "节庆相似照片",
+      "ocr_text": "Selamat Idul Fitri Lebaran keluarga liburan",
+      "tags": [
+        "lebaran",
+        "keluarga",
+        "liburan"
+      ],
+      "similar_ids": [
+        "021",
+        "022"
+      ],
+      "recommended": false,
+      "tag_suggestion_ids": [
+        "021",
+        "022",
+        "024",
+        "012",
+        "016"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    },
+    {
+      "id": "024",
+      "thumb": "images/024.svg",
+      "full": "images/024.svg",
+      "category": "festival",
+      "title": "家庭旅行",
+      "ocr_text": "Selamat Idul Fitri Lebaran keluarga liburan",
+      "tags": [
+        "lebaran",
+        "keluarga",
+        "liburan"
+      ],
+      "similar_ids": [],
+      "recommended": true,
+      "tag_suggestion_ids": [
+        "021",
+        "022",
+        "023",
+        "012",
+        "016"
+      ],
+      "date": "2026-06-12",
+      "sample": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "全部"
+    },
+    {
+      "id": "payment",
+      "name": "支付截图",
+      "description": "转账、付款与收款资料",
+      "color": "#1E6FFF",
+      "symbol": "↗"
+    },
+    {
+      "id": "order",
+      "name": "订单物流",
+      "description": "购物订单与配送信息",
+      "color": "#F28A44",
+      "symbol": "□"
+    },
+    {
+      "id": "chat",
+      "name": "聊天记录",
+      "description": "沟通截图与重要对话",
+      "color": "#2AA978",
+      "symbol": "▤"
+    },
+    {
+      "id": "idcard",
+      "name": "证件票据",
+      "description": "证件、票据与文件",
+      "color": "#8D73CD",
+      "symbol": "▧"
+    },
+    {
+      "id": "work",
+      "name": "工作经营",
+      "description": "工作记录与经营素材",
+      "color": "#B5845E",
+      "symbol": "▦"
+    },
+    {
+      "id": "festival",
+      "name": "节庆生活",
+      "description": "节日、家庭与生活照片",
+      "color": "#2A9EA1",
+      "symbol": "✧"
+    }
+  ],
+  "search_mapping": {
+    "gopay": [
+      "001",
+      "002",
+      "003"
+    ],
+    "dana": [
+      "004"
+    ],
+    "transfer": [
+      "001",
+      "002",
+      "003",
+      "004"
+    ],
+    "bukti transfer minggu lalu": [
+      "001",
+      "002",
+      "003",
+      "004"
+    ],
+    "transfer ke andi": [
+      "001",
+      "002",
+      "003"
+    ],
+    "上周转账记录": [
+      "001",
+      "002",
+      "003",
+      "004"
+    ],
+    "转账凭证": [
+      "001",
+      "002",
+      "003",
+      "004"
+    ],
+    "pesanan": [
+      "005",
+      "006",
+      "007",
+      "008"
+    ],
+    "shopee": [
+      "005",
+      "006",
+      "007"
+    ],
+    "tokopedia": [
+      "008"
+    ],
+    "resi": [
+      "005",
+      "006",
+      "007",
+      "008"
+    ],
+    "paket": [
+      "005",
+      "006",
+      "007",
+      "008"
+    ],
+    "订单": [
+      "005",
+      "006",
+      "007",
+      "008"
+    ],
+    "whatsapp": [
+      "009",
+      "010",
+      "011",
+      "012"
+    ],
+    "chat": [
+      "009",
+      "010",
+      "011",
+      "012"
+    ],
+    "聊天": [
+      "009",
+      "010",
+      "011",
+      "012"
+    ],
+    "dokumen": [
+      "013",
+      "014",
+      "015",
+      "016"
+    ],
+    "ktp": [
+      "013",
+      "014",
+      "015"
+    ],
+    "证件": [
+      "013",
+      "014",
+      "015",
+      "016"
+    ],
+    "kerja": [
+      "017",
+      "018",
+      "019",
+      "020"
+    ],
+    "usaha": [
+      "017",
+      "018",
+      "019",
+      "020"
+    ],
+    "kopi": [
+      "017",
+      "018",
+      "019",
+      "020"
+    ],
+    "工作": [
+      "017",
+      "018",
+      "019",
+      "020"
+    ],
+    "lebaran": [
+      "021",
+      "022",
+      "023"
+    ],
+    "keluarga": [
+      "012",
+      "021",
+      "022",
+      "023",
+      "024"
+    ],
+    "liburan": [
+      "024"
+    ],
+    "节庆": [
+      "021",
+      "022",
+      "023"
+    ],
+    "家庭": [
+      "012",
+      "021",
+      "022",
+      "023",
+      "024"
+    ]
+  }
+}

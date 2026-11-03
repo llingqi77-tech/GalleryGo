@@ -1,0 +1,44 @@
+{
+  "suggestions": [
+    {
+      "ids": [
+        "001",
+        "002",
+        "003",
+        "004"
+      ],
+      "query": "bukti transfer minggu lalu"
+    },
+    {
+      "ids": [
+        "005",
+        "006",
+        "007",
+        "008"
+      ],
+      "query": "pesanan"
+    },
+    {
+      "ids": [
+        "009",
+        "010",
+        "011",
+        "012"
+      ],
+      "query": "whatsapp"
+    }
+  ],
+  "historyAfterClear": 0,
+  "historyAfterUndo": 3,
+  "historyAfterReload": 3,
+  "albumCards": 6,
+  "albumsBottom": 853.03125,
+  "cleanupTop": 877.03125,
+  "widths": [
+    360,
+    390
+  ],
+  "horizontalOverflow": false,
+  "categoryQuickOpenCount": 4,
+  "consoleErrors": 0
+}

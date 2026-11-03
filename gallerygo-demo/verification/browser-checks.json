@@ -1,0 +1,296 @@
+[
+  {
+    "test": "import-default",
+    "checked": 24,
+    "columns": 3,
+    "page": "page-import",
+    "pageWidth": 375,
+    "tiles": 24,
+    "width": 390
+  },
+  {
+    "test": "analysis-four-steps",
+    "timings": [
+      {
+        "step": 1,
+        "elapsedMs": 343,
+        "text": "🔍\n正在识别文字..."
+      },
+      {
+        "step": 2,
+        "elapsedMs": 1990,
+        "text": "🏷️\n正在分类图片..."
+      },
+      {
+        "step": 3,
+        "elapsedMs": 3648,
+        "text": "🔗\n正在建立搜索索引..."
+      },
+      {
+        "step": 4,
+        "elapsedMs": 5356,
+        "text": "📊\n正在整理相似图..."
+      }
+    ],
+    "doneSteps": 4,
+    "page": "page-gallery",
+    "photos": 24,
+    "progress": "100%",
+    "tabs": 7
+  },
+  {
+    "test": "six-categories-and-search",
+    "categoryChecks": [
+      {
+        "ids": [
+          "001",
+          "002",
+          "003",
+          "004"
+        ],
+        "selected": "支付截图"
+      },
+      {
+        "ids": [
+          "005",
+          "006",
+          "007",
+          "008"
+        ],
+        "selected": "订单物流"
+      },
+      {
+        "ids": [
+          "009",
+          "010",
+          "011",
+          "012"
+        ],
+        "selected": "聊天记录"
+      },
+      {
+        "ids": [
+          "013",
+          "014",
+          "015",
+          "016"
+        ],
+        "selected": "证件票据"
+      },
+      {
+        "ids": [
+          "017",
+          "018",
+          "019",
+          "020"
+        ],
+        "selected": "工作经营"
+      },
+      {
+        "ids": [
+          "021",
+          "022",
+          "023",
+          "024"
+        ],
+        "selected": "节庆生活"
+      }
+    ],
+    "queryCheck": {
+      "ids": [
+        "005",
+        "006",
+        "007",
+        "008"
+      ],
+      "selected": "全部"
+    },
+    "clearCheck": {
+      "count": 4,
+      "selected": "支付截图"
+    }
+  },
+  {
+    "test": "similar-recommend-remove-undo",
+    "detailCheck": {
+      "recommendations": 1,
+      "selected": "002",
+      "similar": [
+        "001",
+        "002",
+        "003"
+      ],
+      "title": "GoPay 转账凭证"
+    },
+    "removalCheck": {
+      "ids": [
+        "002",
+        "004"
+      ],
+      "restoreVisible": true,
+      "title": "GoPay 清晰凭证"
+    },
+    "undoCheck": {
+      "ids": [
+        "001",
+        "002",
+        "003",
+        "004"
+      ],
+      "similarCount": 3
+    }
+  },
+  {
+    "test": "tag-learning-skip",
+    "emptyTagCheck": "请输入一个标签名称",
+    "learningVisible": true,
+    "elapsedMs": 2094,
+    "recommendationCheck": {
+      "caption": "“我的生意” · 另有 5 张关联图片",
+      "count": 5,
+      "ids": [
+        "002",
+        "003",
+        "004",
+        "009",
+        "010"
+      ]
+    },
+    "skipCheck": {
+      "detailTags": [
+        "我的生意"
+      ],
+      "taggedVisible": 1
+    }
+  },
+  {
+    "test": "confirm-all-and-persistence",
+    "taggedSearch": {
+      "ids": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "009",
+        "010"
+      ],
+      "query": "我的生意"
+    },
+    "persistedSearch": {
+      "ids": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "009",
+        "010"
+      ],
+      "page": "page-gallery"
+    }
+  },
+  {
+    "test": "360px-active-tab-regression",
+    "before": {
+      "activeTabVisible": false,
+      "activeLeft": -87.333
+    },
+    "after": {
+      "activeLeft": 16,
+      "activeTabVisible": true,
+      "pageWidth": 360,
+      "selected": "全部",
+      "width": 360
+    }
+  },
+  {
+    "test": "no-results",
+    "count": 0,
+    "emptyText": "没有找到与“qzx987”相关的图片，试试其他关键词或分类。",
+    "emptyVisible": true
+  },
+  {
+    "test": "six-albums",
+    "cards": 6,
+    "galleryHidden": true,
+    "pageWidth": 345,
+    "width": 360
+  },
+  {
+    "test": "single-photo-no-removal",
+    "disabled": true,
+    "similar": 0,
+    "text": "暂未发现其他相似图片。"
+  },
+  {
+    "test": "hidden-persistence",
+    "photos": 22,
+    "restoreVisible": true
+  },
+  {
+    "test": "offline-reload-search-and-images",
+    "staticServer": "TCP ECONNREFUSED",
+    "offlineSearch": {
+      "ids": [
+        "001",
+        "002",
+        "003"
+      ],
+      "loadedImages": 3,
+      "page": "page-gallery"
+    },
+    "offlineDetail": {
+      "group": 3,
+      "imageLoaded": true
+    }
+  },
+  {
+    "test": "offline-tag-propagation",
+    "staticServer": "stopped",
+    "ids": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "009",
+      "010"
+    ],
+    "tag": "离线标签"
+  },
+  {
+    "test": "final-review-fixes",
+    "negativeQueries": [
+      "presiden",
+      "danau"
+    ],
+    "bothReturnZero": true,
+    "tagFocusAfterClose": "001",
+    "hideFocusAfterClose": "002",
+    "presetOnlyRecommendations": "verified by Node regression test",
+    "tests": 15
+  },
+  {
+    "test": "post-typography-mobile-layout",
+    "widths": [
+      360,
+      390
+    ],
+    "titlePx": 24,
+    "bodyPx": 14,
+    "searchHeight": 44,
+    "tabHeight": 40,
+    "bottomNavHeight": 56,
+    "horizontalOverflow": false
+  },
+  {
+    "test": "final-offline-retest",
+    "serverProbe": "ECONNREFUSED",
+    "ids": [
+      "001",
+      "002",
+      "003"
+    ],
+    "loadedImages": 3,
+    "detailLoaded": true,
+    "similarCount": 3
+  }
+]

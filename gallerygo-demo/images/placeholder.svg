@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<defs><filter id="soft"><feGaussianBlur stdDeviation="1.2"/></filter><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#F3F6FC"/><stop offset="1" stop-color="#F5F5FB"/></linearGradient></defs>
+<rect width="900" height="1200" rx="20" fill="url(#bg)"/>
+<g font-family="Arial,Microsoft YaHei,sans-serif"><rect x="180" y="300" width="540" height="470" rx="40" fill="#DEE8F6"/><text x="450" y="885" font-size="36" fill="#7A8FAB" font-weight="500" text-anchor="middle">GalleryGo · 示例图片</text></g>
+<rect x="28" y="1124" width="844" height="48" rx="12" fill="#ffffff" fill-opacity=".91"/>
+<text x="450" y="1157" font-size="20" fill="#6b7280" font-weight="500" text-anchor="middle">GALLERYGO · 演示样例 / DEMO · PLACEHOLDER</text></svg>
