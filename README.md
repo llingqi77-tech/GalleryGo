@@ -2,6 +2,10 @@
 
 你的每个重要瞬间，即刻找到。
 
+在线 Demo：https://llingqi77-tech.github.io/GalleryGo/
+
+网页更新推送到 `main` 后，GitHub Actions 会先运行测试，再自动发布到 GitHub Pages。
+
 面向印尼场景的智能图库静态 H5 Demo，采用 TECNO OCEAN BLUE `#1619A6` 品牌色与 `#4D7CFF` 交互强调色。
 
 ## 项目内容
